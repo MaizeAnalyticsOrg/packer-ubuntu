@@ -1,5 +1,5 @@
 {
-  "_comment": "Build with `packer build -var-file=ubuntu1604.json ubuntu.json`",
+  "_comment": "Build with `packer build -var-file=ubuntu1604.json --only=vmware-iso ubuntu.json`",
   "vm_name": "ubuntu1604",
   "cpus": "1",
   "disk_size": "2200960",
